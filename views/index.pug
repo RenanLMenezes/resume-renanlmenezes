@@ -1,0 +1,89 @@
+doctype html
+html(lang="pt-br")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="/css/reset.css")
+        link(rel="stylesheet" href="/css/style.css")
+        link(rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png")
+        link(rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png")
+        link(rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png")
+        link(rel="manifest" href="/images/site.webmanifest")
+        title Currículo
+    body
+        main
+            div(class="left")
+                img(src="/images/foto.jpg" alt="foto do Renan" class="fotoCurriculo")
+                div(class="callme")
+                    h3 Contate me em
+                    div(id="locale") 
+                        img(src="/images/locale.png", alt="")
+                        a(href="https://cutt.ly/VRnCUCf") R. Thomas Simon, 40
+                        br
+                        a(href="https://cutt.ly/VRnCUCf") Centro Itu - SP, 13300-030
+                    div(id="tel")
+                        img(src="/images/telefone.png")
+                        a(href="tel:(11) 94177-5147") 11 94177-5174 
+                    div(id="email")
+                        img(src="/images/email.png")
+                        a(href="mailto:renanlmenezes2003@gmail.com?" subject="link HTML") 
+                            |renanlmenezes2003@gmail.com
+                div(class="experienceWith")
+                    h3 Experiência com
+                    ul
+                        li 
+                            img(src="/images/html5.png" alt="")
+                        li
+                            img(src="/images/css3.png" alt="")
+                        li
+                            img(src="/images/javascript.png" alt="")
+                        li
+                            img(src="/images/nodejs.png" alt="")
+                        li
+                            img(src="/images/unity.png" alt="")
+                        li  
+                            img(src="/images/postgresql.png" alt="")
+                        li
+                            img(src="/images/git.png" alt="")
+                        li  
+                            img(src="/images/github.png" alt="")
+                    div(class="portfolio") 
+                        h3 Veja Meu Portfólio
+                        a(href="https://github.com/RenanLMenezes")
+                            img(src="/images/github.png" alt="" width="100px") 
+            div(class="right")
+                div(class="header")
+                    h1 Renan Leme Menezes
+                    hr
+                    h2 Desenvolvedor de Software
+                div(class="conteudo")
+                    div
+                        h3 Perfil Pessoal
+                        br
+                        p   &emsp;&emsp;&emsp;Eu sou Renan Leme Menezes, tenho 18 anos e estudo para ser um Dev desde os 14 anos.
+                            |  Estou no 1° semestre de Análise e Desenvolvimento de Sistemas na 
+                            |  Fatec Itu - Dom Amaury Castanho.
+                        p   &emsp;&emsp;&emsp;Estou constantemente fazendo novos cursos, sempre estou disposto a aprender, a trabalhar duro e em equipe.
+                    br
+                    br
+                    div
+                        h3 Experiência de Trabalho
+                        br
+                        h3(id="work") Agente de Registro
+                        p(id="firma") Única Menezes Ass. Adm. Corretora de Seguros | Fev-2019 - Presente
+                        p   &emsp;&emsp;&emsp;Fazendo validação, verificação e emissão de certificado digital
+                            |  para pessoas físicas e jurídicas.
+                    div(class="certificados")
+                        br
+                        h3 Minhas Certificações
+                        each certificado in certificados 
+                            div(class="certificado")
+                                br
+                                p 
+                                    a(href=certificado.link) #{ certificado.nome }
+                        else 
+                            h1 nem tem
+        footer
+            div(class="rodape")
+                p &copy; Copyright Renan L. Menezes - 2021              

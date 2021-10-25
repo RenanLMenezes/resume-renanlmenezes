@@ -1,0 +1,167 @@
+body{
+    background:#2c2c66 50%;
+}
+
+main{
+    margin: 0 10% 0 10%;
+}
+
+div{
+    display: inline-block;
+}
+
+.fotoCurriculo{
+    border-radius: 25%;
+    margin-top: 100px;
+    width: 250px;
+}
+
+.right{
+    background: #e6ebe7;
+    text-align: left;
+    margin-left: 400px;
+    position: relative;
+    width: 779px;
+    
+}
+
+.right h1 {
+    margin: 150px 0 0 50px;
+    font-size: 50px;
+    color: #2c2c66;
+}
+
+.right h2 {
+    margin-left: 50px;
+    font-size: 35px;
+    color: #3877c0;
+}
+
+.right h3 {
+    margin-left: 50px;
+    color: #3877c0;
+}
+
+.right p {
+    text-align: left;
+    margin-left: 50px;
+}
+
+
+.left{
+    background: #2c2c66;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    width: 400px;
+    
+}
+
+.left div{
+    margin-top: 30px;
+}
+
+.fotoCurriculo{
+    margin-left: 70px;
+    display: block;
+}
+
+.callme h3{
+    text-align: left;
+    text-decoration: none;
+}
+
+#locale a{
+    margin-left:50px;
+    text-decoration: none;
+    color: white;
+}
+
+#locale {
+    display: block;
+}
+
+#locale img{
+    position: absolute;
+}
+
+#tel{
+    display: block;
+}
+
+#tel a{
+    position: relative;
+    margin-top: 10px;
+    margin-left:50px;
+    text-decoration: none;
+    color: white;
+}
+
+#tel img{
+    position: absolute;
+}
+
+#email{
+    display: block;
+}
+
+#email a{
+    position: relative;
+    margin-top: 10px;
+    margin-left:50px;
+    text-anchor: end;
+    text-decoration: none;
+    color: white;
+}
+
+#email img{
+    position: absolute;
+}
+
+.header{
+    margin-bottom: 50px;
+}
+
+#work{
+    color: black;
+}
+
+#firma{
+    color: rgba(128, 128, 128, 0.589);
+}
+
+.experienceWith{
+    display: block;
+}
+
+.experienceWith ul{
+    list-style-type: none;
+}
+.experienceWith ul li{
+    display: inline;
+    width: 80px;
+}
+.experienceWith ul li img{
+    width: 85px;
+}
+
+.certificado p a{
+    color: #2c2c66;
+    text-decoration: none;
+}
+
+.certificado p a:hover{
+    color: #3877c0;
+}
+
+.rodape{
+    background: #2c2c66;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.rodape p{
+    margin-top: 50px;
+    color: white;
+}

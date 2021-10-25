@@ -1,0 +1,28 @@
+{
+  "name": "resumeproject",
+  "version": "1.0.0",
+  "description": "It's my resume.",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^16.11.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Resume",
+    "NodeJs",
+    "Express",
+    "HTML5",
+    "CSS3"
+  ],
+  "author": "Renan Leme Menezes",
+  "license": "MIT"
+}
